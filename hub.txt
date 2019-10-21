@@ -1,0 +1,5 @@
+hub panhandles_removed_CDS_exon_flanks
+shortLabel panhandles_removed_CDS_exon_flanks
+longLabel panhandles in always intronic regions wrt CDS 10 nts exon flanks
+genomesFile genomes.txt 
+email svetlana.kalmykova@skoltech.ru
