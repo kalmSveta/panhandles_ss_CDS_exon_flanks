@@ -1,3 +1,12 @@
+track phs_dG15_all
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_dGcutoff-15.bb
+shortLabel phs_dG15_all
+longLabel phs dG <= -15 kcal/mol all
+
+
 track phs_dG15
 type bigBed 12 +
 exonNumbers on
