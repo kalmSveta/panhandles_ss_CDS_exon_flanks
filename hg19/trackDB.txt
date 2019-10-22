@@ -29,3 +29,13 @@ itemRgb on
 bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30.bb
 shortLabel phs_dG30
 longLabel phs dG <= -30 kcal/mol
+
+
+track phs_P4HA1_20Kbp_dG15
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_P4HA1.bb
+shortLabel phs_P4HA1_20Kbp_dG15
+longLabel phs for P4HA1 spread 20Kbp dG <= -15kcal/mol
