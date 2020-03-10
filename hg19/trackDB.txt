@@ -39,3 +39,13 @@ itemRgb on
 bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_P4HA1.bb
 shortLabel phs_P4HA1_20Kbp_dG15
 longLabel phs for P4HA1 spread 20Kbp dG <= -15kcal/mol
+
+track phs_known_structures
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_known_structures.bb
+shortLabel phs_known_structures
+longLabel phs intersected with known long-range RNA structures
+
