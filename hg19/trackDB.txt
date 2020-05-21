@@ -58,5 +58,24 @@ bigDataUrl panhandles_MXE_candidates.bb
 shortLabel phs_in_MXE_candidates
 longLabel phs in MXE candidates
 
+track slow_polII
+type bigBed 9 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl candidate_MXE_track_slow.bb
+shortLabel slow_polII
+longLabel slow_polII
+
+track tumor
+type bigBed 9 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl candidate_MXE_track_tumor.bb
+shortLabel tumor
+longLabel tumor
+
+
  	
 
