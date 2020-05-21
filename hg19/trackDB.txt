@@ -49,3 +49,14 @@ bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_known_structures.bb
 shortLabel phs_known_structures
 longLabel phs intersected with known long-range RNA structures
 
+track phs_in_MXE_candidates
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_MXE_candidates.bb
+shortLabel phs_in_MXE_candidates
+longLabel phs in MXE candidates
+
+ 	
+
