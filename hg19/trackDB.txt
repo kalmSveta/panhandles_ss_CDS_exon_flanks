@@ -76,6 +76,14 @@ bigDataUrl candidate_MXE_track_tumor.bb
 shortLabel tumor
 longLabel tumor
 
+track phs_ATE1_dG15
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_ATE1_energy_cutoff_-15.bb
+shortLabel phs_ATE1_dG15
+longLabel phs in ATE1 dG <= -15 kcal/mol spread <= 40kb
+
 
  	
 
