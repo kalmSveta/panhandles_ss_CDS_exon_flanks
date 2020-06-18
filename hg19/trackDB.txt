@@ -30,6 +30,38 @@ bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30.bb
 shortLabel phs_dG30
 longLabel phs dG <= -30 kcal/mol
 
+track phs_spread1000
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000.bb
+shortLabel phs_spread1000
+longLabel phs spread <= 1000 nts
+
+track phs_spread100
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100.bb
+shortLabel phs_spread1000
+longLabel phs spread <= 100 nts
+
+track phs_evalue0.5
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.5.bb
+shortLabel phs_evalue0.5
+longLabel phs evalue <= 0.5
+
+track phs_evalue0.05
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.05.bb
+shortLabel phs_evalue0.05
+longLabel phs evalue <= 0.05
+
 
 track phs_P4HA1_20Kbp_dG15
 type bigBed 12 +
@@ -84,6 +116,12 @@ bigDataUrl panhandles_preprocessed_ATE1_energy_cutoff_-15.bb
 shortLabel phs_ATE1_dG15
 longLabel phs in ATE1 dG <= -15 kcal/mol spread <= 40kb
 
-
+track phs_spread_30kbps
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_spread30kbps_energy_cutoff_-15.bb
+shortLabel phs_spread_30kbps
+longLabel phs spread <= 30 kbps, energy <= -20 kcal/mol
  	
 
