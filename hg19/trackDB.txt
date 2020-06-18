@@ -123,5 +123,13 @@ itemRgb on
 bigDataUrl panhandles_preprocessed_filtered_spread30kbps_energy_cutoff_-15.bb
 shortLabel phs_spread_30kbps
 longLabel phs spread <= 30 kbps, energy <= -20 kcal/mol
+
+track phs_noncoding
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_non_coding_energy_cutoff_-15.bb
+shortLabel phs_noncoding
+longLabel phs noncoding RNA dG <= -15
  	
 
