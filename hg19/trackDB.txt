@@ -2,7 +2,7 @@ track phs_dG15
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15.bb
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_2.bb
 shortLabel phs_dG15
 longLabel phs dG <= -15 kcal/mol
 
@@ -10,7 +10,7 @@ track phs_dG20
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-20.bb
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-20_2.bb
 shortLabel phs_dG20
 longLabel phs dG <= -20 kcal/mol
 
@@ -18,7 +18,7 @@ track phs_dG25
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-25.bb
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-25_2.bb
 shortLabel phs_dG25
 longLabel phs dG <= -25 kcal/mol
 
@@ -26,7 +26,7 @@ track phs_dG30
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30.bb
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30_2.bb
 shortLabel phs_dG30
 longLabel phs dG <= -30 kcal/mol
 
@@ -34,7 +34,7 @@ track phs_spread1000
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000.bb
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000_2.bb
 shortLabel phs_spread1000
 longLabel phs spread <= 1000 nts
 
@@ -42,7 +42,7 @@ track phs_spread100
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100.bb
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100_2.bb
 shortLabel phs_spread1000
 longLabel phs spread <= 100 nts
 
@@ -50,7 +50,7 @@ track phs_evalue0.5
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.5.bb
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.5_2.bb
 shortLabel phs_evalue0.5
 longLabel phs evalue <= 0.5
 
@@ -58,7 +58,7 @@ track phs_evalue0.05
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.05.bb
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.05_2.bb
 shortLabel phs_evalue0.05
 longLabel phs evalue <= 0.05
 
