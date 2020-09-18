@@ -6,6 +6,15 @@ bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-15_2.
 shortLabel phs_dG15
 longLabel phs dG <= -15 kcal/mol
 
+track phs_k6
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3_k6.bb
+shortLabel phs_k6
+longLabel phs k=6
+
+
 track phs_dG20
 type bigBed 12 +
 exonNumbers on
