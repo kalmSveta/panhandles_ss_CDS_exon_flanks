@@ -14,6 +14,14 @@ bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3_k6.bb
 shortLabel phs_k6
 longLabel phs k=6
 
+track phs_removed_repeats
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_energy_cutoff_-15_removed_repeats.bb
+shortLabel phs_removed_repeats
+longLabel phs with removed repeats
+
 
 track phs_dG20
 type bigBed 12 +
