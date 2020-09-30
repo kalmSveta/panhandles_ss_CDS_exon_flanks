@@ -23,6 +23,15 @@ shortLabel phs_removed_repeats
 longLabel phs with removed repeats
 
 
+track phs_scramble_ctr
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl random_panhandles_preprocessed1_energy_cutoff_-15_scramble_ctr.bb
+shortLabel phs_scramble_ctr
+longLabel phs_scramble_ctr
+
+
 track phs_dG20
 type bigBed 12 +
 exonNumbers on
