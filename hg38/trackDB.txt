@@ -85,16 +85,6 @@ shortLabel q-value<=0.1
 longLabel PCCR q-value <= 0.1  
 
 
-track known_RNA_structures
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-visibility 0
-bigDataUrl panhandles_preprocessed_known_structures3.bb
-shortLabel known_structures
-longLabel known long-range RNA structures 
-
-
 track PARIS
 type bigBed 12 +
 exonNumbers on
