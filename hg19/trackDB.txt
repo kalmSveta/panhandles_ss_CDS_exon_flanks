@@ -1,112 +1,3 @@
-track phs_dG15
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-15_2.bb
-shortLabel phs_dG15
-longLabel phs dG <= -15 kcal/mol
-
-track phs_k6
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3_k6.bb
-shortLabel phs_k6
-longLabel phs k=6
-
-track phs_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-15_removed_repeats.bb
-shortLabel phs_removed_repeats
-longLabel phs with removed repeats
-
-
-track phs_scramble_ctr
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl random_panhandles_preprocessed1_energy_cutoff_-15_scramble_ctr.bb
-shortLabel phs_scramble_ctr
-longLabel phs_scramble_ctr
-
-
-track phs_dG20
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-20_2.bb
-shortLabel phs_dG20
-longLabel phs dG <= -20 kcal/mol
-
-track phs_dG25
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-25_2.bb
-shortLabel phs_dG25
-longLabel phs dG <= -25 kcal/mol
-
-track phs_dG30
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-30_2.bb
-shortLabel phs_dG30
-longLabel phs dG <= -30 kcal/mol
-
-track phs_spread1000
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000_2.bb
-shortLabel phs_spread1000
-longLabel phs spread <= 1000 nts
-
-track phs_spread100
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100_2.bb
-shortLabel phs_spread1000
-longLabel phs spread <= 100 nts
-
-track phs_evalue0.5
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_new_cutoff_0.5_3.bb
-shortLabel phs_evalue0.5
-longLabel phs evalue <= 0.5
-
-track phs_evalue0.05
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_new_cutoff_0.05_3.bb
-shortLabel phs_evalue0.05
-longLabel phs evalue <= 0.05
-
-
-track phs_P4HA1_20Kbp_dG15
-type bigBed 12 +
-exonArrows on
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_P4HA1.bb
-shortLabel phs_P4HA1_20Kbp_dG15
-longLabel phs for P4HA1 spread 20Kbp dG <= -15kcal/mol
-
-track phs_known_structures
-type bigBed 12 +
-exonArrows on
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_known_structures.bb
-shortLabel phs_known_structures
-longLabel phs intersected with known long-range RNA structures
-
 track phs_in_MXE_candidates
 type bigBed 12 +
 exonArrows on
@@ -134,101 +25,154 @@ bigDataUrl candidate_MXE_track_tumor.bb
 shortLabel tumor
 longLabel tumor
 
-track phs_ATE1_dG15
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_ATE1_energy_cutoff_-15.bb
-shortLabel phs_ATE1_dG15
-longLabel phs in ATE1 dG <= -15 kcal/mol spread <= 40kb
-
-track phs_spread_30kbps
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_spread30kbps_energy_cutoff_-15.bb
-shortLabel phs_spread_30kbps
-longLabel phs spread <= 30 kbps, energy <= -20 kcal/mol
-
-track phs_noncoding
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_non_coding_energy_cutoff_-15.bb
-shortLabel phs_noncoding
-longLabel phs noncoding RNA dG <= -15
- 	
-######################################
-track phs_dG15_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3.bb
-shortLabel phs_dG15_removed_repeats
-longLabel phs dG <= -15 kcal/mol removed_repeats
-
-track phs_dG20_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-20_3.bb
-shortLabel phs_dG20_removed_repeats
-longLabel phs dG <= -20 kcal/mol removed_repeats
-
-track phs_dG25_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-25_3.bb
-shortLabel phs_dG25_removed_repeats
-longLabel phs dG <= -25 kcal/mol removed_repeats
-
-track phs_dG30_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_energy_cutoff_-30_3.bb
-shortLabel phs_dG30_removed_repeats
-longLabel phs dG <= -30 kcal/mol removed_repeats
-
-track phs_spread100_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_spread_cutoff_100_3.bb
-shortLabel phs_spread100_removed_repeats
-longLabel phs spread <= 100 nts removed_repeats
-
-track phs_spread1000_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_spread_cutoff_1000_3.bb
-shortLabel phs_spread1000_removed_repeats
-longLabel phs spread <= 1000 nts removed_repeats
-
-track phs_evalue05_removed_repeats
-type bigBed 12 +
-exonNumbers on
-itemRgb on
-bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0.5_3.bb
-shortLabel phs_evalue05_removed_repeats
-longLabel phs evalue <= 0.5 removed_repeats
 
 
-track phs_evalue005_removed_repeats
+track dG<=15
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0.05_3.bb
-shortLabel phs_evalue005_removed_repeats
-longLabel phs evalue <= 0.05 removed_repeats
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-15_3.bb
+shortLabel dG15
+longLabel PPCR dG <= -15 kcal/mol
 
-track phs_known_structures_removed_repeats
+
+track dG20
 type bigBed 12 +
-exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_known_structures3.bb
-shortLabel phs_known_structures_removed_repeats
-longLabel phs intersected with known long-range RNA structures removed repeats
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-20_3.bb
+shortLabel dG<=20
+longLabel PPCR dG <= -20 kcal/mol
+
+
+track dG<=25
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-25_3.bb
+shortLabel dG<=25
+longLabel PPCR dG <= -25 kcal/mol
+
+
+track dG_30
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-30_3.bb
+shortLabel dG_30
+longLabel PPCR dG <= -30 kcal/mol
+
+
+track spread_1000
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_1000_3.bb
+shortLabel spread_1000
+longLabel PPCR spread <= 1000 nts
+
+track spread_100
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_100_3.bb
+shortLabel spread_100
+longLabel PPCR spread <= 100 nts
+
+
+track qvalue_0.5
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.5_3.bb
+shortLabel qvalue_0.5
+longLabel PPCR q-value <= 0.5
+
+track qvalue_0.1 
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.1_3.bb
+shortLabel qvalue_0.1 
+longLabel PPCR q-value <= 0.1  
+
+
+track known_RNA_structures
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_known_structures.bb
+shortLabel known_structures
+longLabel known long-range RNA structures 
+
+
+track PARIS
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl PARIS.bb
+shortLabel PARIS
+longLabel PARIS
+
+track LIGR-seq               
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl LiGRSeq_both_reps.bb
+shortLabel LIGR-seq
+longLabel LIGR-seq
+
+track RIC-seq
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl ric2bb
+shortLabel RIC-seq
+longLabel RIC-seq
+
+
+track slow_pol_II
+type bigBed 9
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl slow_pol_track.bb
+shortLabel slow_pol_II
+longLabel slow RNApol II
+
+
+
+track icSHAPE
+type bigWig
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+visibility 0
+shortLabel icSHAPE
+longLabel icSHAPE in Hek chromatin
+viewLimits 0:1
+...
+    track icSHAPE_plus_strand
+    type bigWig
+    parent icSHAPE
+    color 255,0,0 
+    bigDataUrl hek_ch_vivo_positive_hg19.BigWig
+...
+    track icSHAPE_minus_strand
+    type bigWig
+    parent icSHAPE
+    color 0,0,255 
+    bigDataUrl hek_ch_vivo_negative_hg19.BigWig
